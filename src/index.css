@@ -5,9 +5,113 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(211, 210, 208);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  margin: auto;
+  display: flex;
+  background-color: #F55A5A;
+  /* position: absolute; */
+  width: 550px;
+  height: 55px;
+  align-items: center;
+  /* position: relative; */
+  color: white;
+}
+
+.navbar--image {
+  margin: auto;
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.navbar--title {
+  margin: auto;
+  margin-left: 5px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.content {
+  background-color: white;
+  margin: auto;
+  /* display: flex; */
+  
+  /* position: absolute; */
+  width: 550px;
+}
+
+.card {
+  display: flex;
+  padding: 0px 20px 0px 30px;
+  align-items: center;
+  /* display: table; */
+}
+
+.card--image {
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.card--details {
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+}
+
+.card--details-location {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+}
+
+.card--details-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+}
+
+.card--details-Date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+}
+
+.card--details-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #2B283A;
 }

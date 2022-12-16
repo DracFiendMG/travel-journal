@@ -7,7 +7,7 @@ export default function Card(props) {
             <div className="card--details">
                 <div className="card--details-location">
                     <p className="card--details-place"><i className="fa-solid fa-location-dot"></i>{props.ele.location.place}</p>
-                    <a href={props.ele.map} className="card--details-map">View on Google Maps</a>
+                    <a href={props.ele.location.map} target="_blank" className="card--details-map">View on Google Maps</a>
                 </div>
                 
                 <h0 className="card--details-title">{props.ele.title}</h0>

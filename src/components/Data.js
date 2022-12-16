@@ -1,9 +1,12 @@
 export default [
     {
         id: 1,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKpXiV_c6wL661jMtt7R0m5Yahs6tGx2gFc4QhYGma1Kv6-7-AXC9eI2TlCtJZ_V2iMc&usqp=CAU",
+        image: "https://source.unsplash.com/WLxQvbMyfas",
         title: "Mount Fuji",
-        location: "JAPAN",
+        location: {
+            place: "JAPAN",
+            map: "https://goo.gl/maps/Qc7JjSyXg5vYiGZVA",
+        },
         Date: {
             From: "12 Jan, 2021",
             To: "24 Jan, 2021",
@@ -12,9 +15,12 @@ export default [
     },
     {
         id: 2,
-        image: "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-iStock-49888866_hwah23.jpg",
+        image: "https://source.unsplash.com/JmuyB_LibRo",
         title: "Sydney Opera House",
-        location: "AUSTRALIA",
+        location: {
+            place: "AUSTRALIA",
+            map: "https://goo.gl/maps/ns4zq8VDF3BDbDaV8",
+        },
         Date: {
             From: "27 May, 2021",
             To: "8 Jun, 2021",
@@ -23,9 +29,12 @@ export default [
     },
     {
         id: 3,
-        image: "http://res.cloudinary.com/simpleview/image/upload/v1450117455/clients/norway/unesco-geirangerfjord-skagefla-waterfall-2-1_6cc6a64a-a204-432e-8753-01ef2080f24e.jpg",
+        image: "https://source.unsplash.com/3PeSjpLVtLg",
         title: "Geirangerfjord",
-        location: "NORWAY",
+        location: {
+            place: "NORWAY",
+            map: "https://goo.gl/maps/ns4zq8VDF3BDbDaV8",
+        },
         Date: {
             From: "01 Oct, 2021",
             To: "18 Nov, 2021",
